@@ -15,6 +15,6 @@ GEAT is a java-based **G**enomic **E**vents **A**nalysis **T**ool aimed to perfo
 > *GEAT currently performes seq QC check based on included [Prinseq](http://prinseq.sourceforge.net/) which is developed by [Perl](https://www.perl.org/).* 
 
 ## Execution/Command
-
+>
 java -Xmx16G -jar GEAT.jar [options]
 
