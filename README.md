@@ -10,9 +10,8 @@ GEAT is a java-based **G**enomic **E**vents **A**nalysis **T**ool aimed to perfo
 ##Requirements / Dependencies##
 - **Java**    
 - **BLAST+**     
-> *GEAT employs blastn to performe two short seq alignment. To setsup BLAST+, Go to the [BLAST download page](http://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=Download).
-   Add BLAST+ to your path*
-```echo 'export PATH=[Your BLAST+ installation directory]/bin:$PATH' >> ~/.bash_profile```
+> *GEAT employs blastn to performe two short seq alignment. Go to the [BLAST download page](http://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=Download) to setsup BLAST+, then add BLAST+ to your path*  
+   ```echo 'export PATH=[Your BLAST+ installation directory]/bin:$PATH' >> ~/.bash_profile```
 - **Perl**    
 > *GEAT currently performes seq QC check based on included [Prinseq](http://prinseq.sourceforge.net/) which is developed by [Perl](https://www.perl.org/).*
 
